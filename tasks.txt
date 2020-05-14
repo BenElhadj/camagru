@@ -1,0 +1,16 @@
+1-user regitser{
+	-check user exsit
+	-check user from requreiemnt
+	-email validation
+	-create user
+}
+2-login user{
+	-check user exsit
+	-rest password
+	-login user
+	-profile mangment
+	-montage mangement
+}
+3-home{
+	-disapl image to visiteur
+}

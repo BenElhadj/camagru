@@ -1,0 +1,26 @@
+li{
+  list-style-type: none;
+  margin: 0 2vw;
+}
+a{
+  text-decoration: none;
+  color: white;
+}
+nav{
+  width: 100vw;
+  height: 45px;
+}
+nav{
+  width: 100vw;
+  background-color: black;
+}
+ul{
+  margin: 0;
+  padding-top: 13px;
+  display: flex;
+
+}
+
+body{
+  margin: 0;
+}

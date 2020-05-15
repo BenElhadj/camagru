@@ -1,7 +1,6 @@
 <?php
        $user = new User();
 
-
 ?>
 <!DOCTYPE html>
 <html>
@@ -39,6 +38,8 @@
             require('users/login.php');
         } elseif($action == 'save') {
             require('users/store.php');
+        } elseif($action == 'thankyou') {
+            require('users/thankyou.php');
         }else {
             require '404.php';
         }

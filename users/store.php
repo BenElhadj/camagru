@@ -16,6 +16,9 @@ $user->password=$password;
 
 $user->create();
 
+// affter create the user send the verify code 
+$user->sendEmail($user->email, $user->vkey);
+
 //redirect user to dashbord
 
-header('Location: '.$appUrl.'index.php?page=users');
+header('Location: '.$appUrl.'index.php?page=user&action=thankyou');
